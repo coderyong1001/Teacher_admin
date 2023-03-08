@@ -1,0 +1,64 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-10-31 16:28:00 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2020-02-21 17:20:07
+ */
+.ListTable {
+  border-top: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+}
+.ListTable .tabkeTitle {
+  background: #EDEDED;
+  padding: 10px 20px;
+}
+.ListTable .tabkeTitle span {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+}
+.ListTable .payment_0 {
+  color: #33CC33;
+}
+.ListTable .payment_1 {
+  color: #FF6600;
+}
+.ListTable .payment_2 {
+  color: #FF6600;
+}
+.ListTable .payment_3 {
+  color: #CC0000;
+}
+.ListTable .payment_4 {
+  color: #CC0000;
+}
+.ListTable .payment_5 {
+  color: #0033CC;
+}
+.ListTable .payment_6 {
+  color: #CC0000;
+}
+.ListTable .payment_7 {
+  color: #CC0000;
+}
+.ListTable .voucherImg {
+  display: inline-block;
+  vertical-align: top;
+  width: 40px;
+  overflow: hidden;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.ListTable .ant-table-body .ant-table-tbody tr td {
+  border-left: 1px solid #e8e8e8;
+}
+.ListTable .ant-table-body .ant-table-tbody tr td:nth-child(1) {
+  border-left: 0;
+}
+.ListTable .ant-table-body .ant-table-wrapper .ant-table-tbody tr td {
+  border-left: 0;
+}
+.ListTable .ListTableBtnBox {
+  border-bottom: 1px solid #e8e8e8;
+}

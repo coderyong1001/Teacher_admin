@@ -1,0 +1,37 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-10-18 15:36:57 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2020-02-11 16:01:28
+ */
+.header {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0 20px;
+  text-align: right;
+
+  >div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.edition {
+  overflow: hidden;
+  width: 382px;
+
+  >div {
+    // width: 397px;
+    padding-right: 30px;
+    max-height: 500px;
+    overflow: auto;
+    position: relative;
+    right: -17px;
+  }
+}

@@ -1,0 +1,33 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-10-18 15:36:57 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2020-01-13 17:25:16
+ */
+.LayoutsBox {
+  height: 100%;
+}
+.LayoutsBox .Sider {
+  overflow: auto;
+  height: 100%;
+}
+.LayoutsBox .layout {
+  min-height: 100vh;
+}
+.LayoutsBox .layout > .Header {
+  background: #fff;
+  padding: 0;
+}
+.LayoutsBox .layout > .Content {
+  margin: 24px 16px 0;
+  overflow: initial;
+  position: relative;
+  min-height: auto;
+}
+.LayoutsBox .layout > .Content > div {
+  padding: 24px;
+  background: #fff;
+}
+.LayoutsBox .layout > .Footer {
+  text-align: center;
+}

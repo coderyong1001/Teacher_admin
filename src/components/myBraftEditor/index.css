@@ -1,0 +1,42 @@
+.editor-wrapper-content {
+  position: relative;
+}
+.editor-wrapper-content .editor-wrapper {
+  border: 1px solid #d9d9d9;
+}
+.editor-wrapper-content .editor-wrapper h1 {
+  font-size: 28px;
+}
+.editor-wrapper-content .editor-wrapper h2 {
+  font-size: 24px;
+}
+.editor-wrapper-content .editor-wrapper h3 {
+  font-size: 20px;
+}
+.editor-wrapper-content .editor-wrapper h4 {
+  font-size: 16px;
+}
+.editor-wrapper-content .editor-wrapper h5 {
+  font-size: 14px;
+}
+.editor-wrapper-content .editor-wrapper h6 {
+  font-size: 12px;
+}
+.editor-wrapper-content .output-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 24px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  z-index: 10;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.editor-wrapper-content .output-content .output-content-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

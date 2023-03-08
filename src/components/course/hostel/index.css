@@ -1,0 +1,22 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-10-31 10:40:19 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2020-05-06 14:10:17
+ */
+.Hostel .hotel_hint.label {
+  min-width: 75px;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 32px;
+  white-space: nowrap;
+  text-align: right;
+  vertical-align: top;
+  font-size: 14px;
+}
+.Hostel .hotel_hint.label::after {
+  content: ':';
+  position: relative;
+  top: -0.5px;
+  margin: 0 8px 0 2px;
+}

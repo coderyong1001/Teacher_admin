@@ -1,0 +1,36 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-11-11 17:59:37 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2019-11-14 10:54:49
+ */
+.MyImgUpload {
+  display: inline-block;
+  vertical-align: top;
+}
+.MyImgUpload .avatar-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
+}
+.MyImgUpload .ant-upload.ant-upload-select.ant-upload-select-picture-card {
+  position: relative;
+}
+.MyImgUpload .btnBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  cursor: default;
+}
+.MyImgUpload .btnBox .IconBtn {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+.MyImgUpload .btnBox .IconBtn > i {
+  cursor: pointer;
+}

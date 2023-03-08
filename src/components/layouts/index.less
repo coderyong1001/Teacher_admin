@@ -1,0 +1,40 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-10-18 15:36:57 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2020-01-13 17:25:16
+ */
+.LayoutsBox {
+  // background: #001529;
+  height: 100%;
+
+  .Sider {
+    overflow: auto;
+    height: 100%;
+  }
+
+  .layout {
+    min-height: 100vh;
+
+    >.Header {
+      background: #fff;
+      padding: 0;
+    }
+
+    >.Content {
+      margin: 24px 16px 0;
+      // overflow: auto;
+      overflow: initial;
+      position: relative;
+      min-height: auto; // 覆盖.ant-layout-content最小高度为0引起的样式错误
+      >div {
+        padding: 24px;
+        background: #fff;
+      }
+    }
+
+    >.Footer {
+      text-align: center;
+    }
+  }
+}

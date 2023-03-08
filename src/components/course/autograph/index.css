@@ -1,0 +1,32 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-11-01 11:34:47 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2019-11-01 15:06:40
+ */
+.Autograph .optionTitle {
+  font-weight: 700;
+}
+.Autograph .optionType {
+  color: seagreen;
+  font-weight: 700;
+}
+.Autograph .optionType.nothing {
+  color: #F08080;
+}
+.Autograph .optionType.not {
+  color: #FFA500;
+}
+.Autograph .optionType.end {
+  color: #CD2626;
+}
+.Autograph .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+.Autograph .title .name,
+.Autograph .title .address {
+  text-align: center;
+  margin: 0;
+}

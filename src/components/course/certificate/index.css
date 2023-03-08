@@ -1,0 +1,27 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-11-01 11:05:59 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2019-11-24 12:43:18
+ */
+.Certificate {
+  text-align: center;
+}
+.Certificate .content {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+}
+.Certificate .content .title {
+  position: absolute;
+  top: 0;
+  left: -70px;
+}
+.Certificate .content img {
+  width: 100%;
+  height: auto;
+}
+.Certificate .dtn {
+  text-align: center;
+}

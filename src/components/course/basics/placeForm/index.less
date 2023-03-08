@@ -1,0 +1,49 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-10-23 11:00:23 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2019-12-09 15:43:38
+ */
+.PlaceForm {
+  .time {
+
+    .label {
+      width: 120px;
+      display: inline-block;
+      overflow: hidden;
+      line-height: 32px;
+      white-space: nowrap;
+      text-align: right;
+      vertical-align: top;
+      font-size: 14px;
+
+      &:after {
+        content: ':';
+        position: relative;
+        top: -0.5px;
+        margin: 0 8px 0 2px;
+      }
+
+      &.form-label {
+        &:before {
+          display: inline-block;
+          margin-right: 4px;
+          color: #f5222d;
+          font-size: 14px;
+          font-family: SimSun, sans-serif;
+          line-height: 1;
+          content: '*';
+        }
+      }
+    }
+
+    .input {
+      width: 300px;
+    }
+
+    #container {
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+}

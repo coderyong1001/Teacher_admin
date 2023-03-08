@@ -1,0 +1,66 @@
+/*
+ * @Author: yuanhang 
+ * @Date: 2019-10-16 10:58:59 
+ * @Last Modified by: yuanhang
+ * @Last Modified time: 2019-10-23 11:46:41
+ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#root {
+  height: 100%;
+}
+
+#App {
+  height: 100%;
+  overflow-y: hidden;
+  //  overflow-x: scroll;
+  min-width: 1200px;
+}
+
+.LoginBox {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #3277de url('../../assets/img/login_bg.jpg') bottom left no-repeat;
+  background-size: 1920px 1080px;
+
+  .LoginForm {
+    background: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    box-sizing: border-box; // 防止padding溢出
+
+    .title {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 24px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .login-form {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .login-form-forgot {
+      float: right;
+    }
+
+    .login-form-button {
+      width: 100%;
+    }
+  }
+}
